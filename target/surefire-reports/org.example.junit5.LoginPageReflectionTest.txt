@@ -1,0 +1,108 @@
+-------------------------------------------------------------------------------
+Test set: org.example.junit5.LoginPageReflectionTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 4, Skipped: 0, Time elapsed: 0.061 s <<< FAILURE! -- in org.example.junit5.LoginPageReflectionTest
+org.example.junit5.LoginPageReflectionTest.testLoginPageHasExpectedNumberOfMethods -- Time elapsed: 0.038 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: LoginPage should have exactly 3 methods ==> expected: <3> but was: <1>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:559)
+	at org.example.junit5.LoginPageReflectionTest.testLoginPageHasExpectedNumberOfMethods(LoginPageReflectionTest.java:109)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.example.junit5.LoginPageReflectionTest.testLoginMethodReturnType -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchMethodException: org.example.LoginPage.login(java.lang.String,java.lang.String)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848)
+	at org.example.junit5.LoginPageReflectionTest.testLoginMethodReturnType(LoginPageReflectionTest.java:92)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.example.junit5.LoginPageReflectionTest.testLoginMethodExists -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Login method should be present in LoginPage class ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)
+	at org.example.junit5.LoginPageReflectionTest.testLoginMethodExists(LoginPageReflectionTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.example.junit5.LoginPageReflectionTest.testLoginPageImplementsInterface -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: LoginPage should implement the Authenticatable interface ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)
+	at org.example.junit5.LoginPageReflectionTest.testLoginPageImplementsInterface(LoginPageReflectionTest.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.example.junit5.LoginPageReflectionTest.testLoginPageHasNoStaticMethods -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: LoginPage should not have static methods ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:235)
+	at org.example.junit5.LoginPageReflectionTest.testLoginPageHasNoStaticMethods(LoginPageReflectionTest.java:117)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.example.junit5.LoginPageReflectionTest.testLoginPageHasExpectedFieldTypes -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchFieldException: usernameField
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+	at org.example.junit5.LoginPageReflectionTest.testLoginPageHasExpectedFieldTypes(LoginPageReflectionTest.java:124)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.example.junit5.LoginPageReflectionTest.testLoginPageFieldsExist -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchFieldException: usernameField
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+	at org.example.junit5.LoginPageReflectionTest.testLoginPageFieldsExist(LoginPageReflectionTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.example.junit5.LoginPageReflectionTest.testLoginPageConstructorIsPrivate -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: LoginPage constructor should be private ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)
+	at org.example.junit5.LoginPageReflectionTest.testLoginPageConstructorIsPrivate(LoginPageReflectionTest.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.example.junit5.LoginPageReflectionTest.testLoginPageHasNoPublicFields -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: LoginPage should not expose public fields ==> expected: <0> but was: <36>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:559)
+	at org.example.junit5.LoginPageReflectionTest.testLoginPageHasNoPublicFields(LoginPageReflectionTest.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.example.junit5.LoginPageReflectionTest.testLoginMethodParameters -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoSuchMethodException: org.example.LoginPage.login(java.lang.String,java.lang.String)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848)
+	at org.example.junit5.LoginPageReflectionTest.testLoginMethodParameters(LoginPageReflectionTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

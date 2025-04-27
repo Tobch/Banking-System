@@ -1,0 +1,7 @@
+org\example\junit5\ClientOperations.class
+org\example\junit5\ClientTest.class
+org\example\junit5\LoanOperationsTest.class
+org\example\HelloWorldTest.class
+org\example\junit5\AdminTest.class
+org\example\junit5\LoginPageReflectionTest.class
+org\example\junit5\AdminOperations.class
