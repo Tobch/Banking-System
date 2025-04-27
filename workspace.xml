@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e85244b-d0be-4adb-a614-d014000ecf35" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2w3EtFWa33IKAiMtaujr4LC9twV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LoginPage.executor": "Run",
+    "JUnit.AdminOperations.executor": "Run",
+    "JUnit.AdminOperations.testAddMultipleAdmins.executor": "Run",
+    "JUnit.AdminOperations.testAddMultipleClients.executor": "Run",
+    "JUnit.AdminOperations.testAddMultipleClientsWithValidCredentials.executor": "Run",
+    "JUnit.AdminOperations.testAdminEquality.executor": "Run",
+    "JUnit.AdminOperations.testAdminInvalidSalary.executor": "Run",
+    "JUnit.AdminOperations.testAdminListIsImmutable.executor": "Run",
+    "JUnit.AdminOperations.testAdminToStringIncludesRole.executor": "Run",
+    "JUnit.AdminOperations.testAdminToStringIncludesUsername.executor": "Run",
+    "JUnit.AdminOperations.testAdminWithDuplicateID.executor": "Run",
+    "JUnit.AdminOperations.testAdminWithEmptyRole.executor": "Run",
+    "JUnit.AdminOperations.testClientEquality.executor": "Run",
+    "JUnit.AdminOperations.testClientInvalidBalance.executor": "Run",
+    "JUnit.AdminOperations.testClientListIsImmutable.executor": "Run",
+    "JUnit.AdminOperations.testClientToStringIncludesProfession.executor": "Run",
+    "JUnit.AdminOperations.testClientWithDuplicateID.executor": "Run",
+    "JUnit.AdminOperations.testClientWithEmptyProfession.executor": "Run",
+    "JUnit.AdminOperations.testCreateAdminWithEmptyUsername.executor": "Run",
+    "JUnit.AdminOperations.testCreateAdminWithNullPassword.executor": "Run",
+    "JUnit.AdminOperations.testRemoveAdmin.executor": "Run",
+    "JUnit.AdminOperations.testRemoveClient.executor": "Run",
+    "JUnit.AdminTest.executor": "Run",
+    "JUnit.AdminTest.testAccountNumberUniqueness.executor": "Run",
+    "JUnit.AdminTest.testAdminBalanceUpdate.executor": "Run",
+    "JUnit.AdminTest.testAdminBalanceUpdateWithNegativeValue.executor": "Run",
+    "JUnit.AdminTest.testAdminBonusCalculationWithHighYears.executor": "Run",
+    "JUnit.AdminTest.testAdminBonusCalculationWithNegativeYears.executor": "Run",
+    "JUnit.AdminTest.testAdminBonusCalculationWithPositiveYears.executor": "Run",
+    "JUnit.AdminTest.testAdminBonusCalculationWithZeroYears.executor": "Run",
+    "JUnit.AdminTest.testAdminCreation.executor": "Run",
+    "JUnit.AdminTest.testAdminCreationWithEmptyName.executor": "Run",
+    "JUnit.AdminTest.testAdminCreationWithNullRole.executor": "Run",
+    "JUnit.AdminTest.testAdminListIsImmutable.executor": "Run",
+    "JUnit.AdminTest.testAdminLoginWithCorrectPassword.executor": "Run",
+    "JUnit.AdminTest.testAdminLoginWithIncorrectPassword.executor": "Run",
+    "JUnit.AdminTest.testAdminRoleUpdate.executor": "Run",
+    "JUnit.AdminTest.testAdminRoleUpdateWithEmptyValue.executor": "Run",
+    "JUnit.AdminTest.testAdminSalaryUpdate.executor": "Run",
+    "JUnit.AdminTest.testAdminSalaryUpdateWithNegativeValue.executor": "Run",
+    "JUnit.AdminTest.testAdminToStringIncludesAllDetails.executor": "Run",
+    "JUnit.AdminTest.testAdminWithDuplicateAccountNumber.executor": "Run",
+    "JUnit.AdminTest.testAdminWithDuplicateName.executor": "Run",
+    "JUnit.AdminTest.testInvalidBalance.executor": "Run",
+    "JUnit.AdminTest.testInvalidPassword.executor": "Run",
+    "JUnit.ClientOperations.executor": "Run",
+    "JUnit.ClientOperations.testClientCreationWithEmptyName.executor": "Run",
+    "JUnit.ClientOperations.testClientCreationWithNegativeBalance.executor": "Run",
+    "JUnit.ClientOperations.testClientToStringIncludesDetails.executor": "Run",
+    "JUnit.ClientOperations.testDeposit.executor": "Run",
+    "JUnit.ClientOperations.testDepositNegativeAmount.executor": "Run",
+    "JUnit.ClientOperations.testDepositZeroAmount.executor": "Run",
+    "JUnit.ClientOperations.testTransactionHistory.executor": "Run",
+    "JUnit.ClientOperations.testTransactionHistoryAfterMultipleTransfers.executor": "Run",
+    "JUnit.ClientOperations.testTransactionHistoryIsImmutable.executor": "Run",
+    "JUnit.ClientOperations.testTransfer.executor": "Run",
+    "JUnit.ClientOperations.testTransferFullBalance.executor": "Run",
+    "JUnit.ClientOperations.testTransferNegativeAmount.executor": "Run",
+    "JUnit.ClientOperations.testTransferToNonExistentClient.executor": "Run",
+    "JUnit.ClientOperations.testTransferToSelf.executor": "Run",
+    "JUnit.ClientOperations.testValidTransferBetweenClients.executor": "Run",
+    "JUnit.ClientOperations.testWithdraw.executor": "Run",
+    "JUnit.ClientOperations.testWithdrawExactBalance.executor": "Run",
+    "JUnit.ClientOperations.testWithdrawMoreThanBalance.executor": "Run",
+    "JUnit.ClientOperations.testWithdrawZeroAmount.executor": "Run",
+    "JUnit.ClientTest.executor": "Run",
+    "JUnit.ClientTest.testAccountNumberUniqueness.executor": "Run",
+    "JUnit.ClientTest.testClientBalanceUpdate.executor": "Run",
+    "JUnit.ClientTest.testClientBalanceUpdateWithNegativeValue.executor": "Run",
+    "JUnit.ClientTest.testClientCreation.executor": "Run",
+    "JUnit.ClientTest.testClientCreationWithEmptyName.executor": "Run",
+    "JUnit.ClientTest.testClientCreationWithInvalidAccountNumber.executor": "Run",
+    "JUnit.ClientTest.testClientCreationWithInvalidBalance.executor": "Run",
+    "JUnit.ClientTest.testClientCreationWithInvalidPhoneNumber.executor": "Run",
+    "JUnit.ClientTest.testClientCreationWithNegativeBalance.executor": "Run",
+    "JUnit.ClientTest.testClientCreationWithShortPassword.executor": "Run",
+    "JUnit.ClientTest.testClientEquality.executor": "Run",
+    "JUnit.ClientTest.testClientInequality.executor": "Run",
+    "JUnit.ClientTest.testClientJobUpdate.executor": "Run",
+    "JUnit.ClientTest.testClientJobUpdateWithEmptyValue.executor": "Run",
+    "JUnit.ClientTest.testClientListIsImmutable.executor": "Run",
+    "JUnit.ClientTest.testClientLoginFailure.executor": "Run",
+    "JUnit.ClientTest.testClientLoginSuccess.executor": "Run",
+    "JUnit.ClientTest.testClientLoginWithIncorrectPassword.executor": "Run",
+    "JUnit.ClientTest.testClientLoginWithIncorrectUsername.executor": "Run",
+    "JUnit.ClientTest.testClientPhoneNumberUpdate.executor": "Run",
+    "JUnit.ClientTest.testClientPhoneNumberUpdateWithInvalidValue.executor": "Run",
+    "JUnit.ClientTest.testClientToStringIncludesDetails.executor": "Run",
+    "JUnit.ClientTest.testLoanRequestWithHighAmount.executor": "Run",
+    "JUnit.LoanOperationsTest.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanApprovalForHighAmount.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanApprovalForLowAmount.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanApprovalWithValidWaitingLoan.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanRejectionForExcessiveAmount.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanRejectionForNegativeAmount.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanRejectionForNegativeTerm.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanRejectionForZeroAmount.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanRejectionForZeroTerm.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanRejectionWithInvalidWaitingLoan.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanToStringIncludesDetails.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanTransferBetweenClients.executor": "Run",
+    "JUnit.LoanOperationsTest.testLoanTransferToNonExistentClient.executor": "Run",
+    "JUnit.LoanOperationsTest.testMonthlyInstallmentCalculation.executor": "Run",
+    "JUnit.LoanOperationsTest.testMonthlyInstallmentCalculationWithInterest.executor": "Run",
+    "JUnit.LoanOperationsTest.testRequestAndRejectLoan.executor": "Run",
+    "JUnit.LoanOperationsTest.testWaitingLoanToStringIncludesDetails.executor": "Run",
+    "JUnit.LoginPageReflectionTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Basil/Downloads/Testing project/Banking System",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.LoginPageReflectionTest">
+    <configuration name="AdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.junit5" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junit5.AdminTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientOperations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.junit5" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junit5.ClientOperations" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.junit5" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junit5.ClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.junit5" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junit5.LoanOperationsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageReflectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.junit5" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junit5.LoginPageReflectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Banking System" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Banking System" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Banking System" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="Banking System" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Banking System" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginPageReflectionTest" />
+        <item itemvalue="JUnit.LoanOperationsTest" />
+        <item itemvalue="JUnit.ClientTest" />
+        <item itemvalue="JUnit.ClientOperations" />
+        <item itemvalue="JUnit.AdminTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e85244b-d0be-4adb-a614-d014000ecf35" name="Changes" comment="" />
+      <created>1745262069345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745262069345</updated>
+      <workItem from="1745262070633" duration="1324000" />
+      <workItem from="1745495050899" duration="22595000" />
+      <workItem from="1745664547418" duration="7856000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/junit5/AdminOperations.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/junit5/AdminOperations.java</url>
+          <line>186</line>
+          <properties class="org.example.junit5.AdminOperations" method="testClientWithDuplicateID">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
