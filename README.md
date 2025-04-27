@@ -1,5 +1,4 @@
-A banking system manages financial transactions, customer accounts, loans, and related services. It includes features like account management, fund transfers, loan processing, and online banking. Testing would encompass security measures, transaction accuracy, data integrity, and compliance with financial regulations.
-
+this is a project on developing a software system based on test-driven development
 this project includes testing oue project on multiple levels which are :
 1-Unit Testing
 2-White-box Testing
