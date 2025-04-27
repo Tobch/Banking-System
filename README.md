@@ -1,5 +1,18 @@
-# Banking-System
-A banking system manages financial transactions, customer accounts, loans, and related services. It includes features like account management, fund transfers, loan processing, and online banking. Testing would encompass security measures, transaction accuracy, data integrity, and compliance with financial regulations.
+## Getting Started
 
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-this application including testing types like : Unit Testing,White-box Testing,GUI Testing,Integration Testing each one of them passes the condition on which they were tested on 
+## Folder Structure
+
+The workspace contains two folders by default, where:
+
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
+
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+
+## Dependency Management
+
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
